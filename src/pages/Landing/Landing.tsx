@@ -4,7 +4,7 @@ import LogoSVG from '../../assets/images/logo.svg';
 import { FiArrowRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
-const Landing = () => {
+const Landing: React.FC = () => {
 
     return(
         <div id="page-landing">
